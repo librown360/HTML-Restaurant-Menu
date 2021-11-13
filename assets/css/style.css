@@ -18,7 +18,6 @@ li {
 }
 
 img {
-    width: 100%;
     height: auto;
     max-width: 100%;
 }
@@ -30,6 +29,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -74,13 +74,23 @@ nav a:hover {
     margin: 10px;
 }
 
+.locations {
+    list-style-type: none;
+ 
+}
+
 table {
     border: 3px solid black;
     width: 100%;
+    color: green;
 }
   
 td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+address {
+    color: green;
 }
